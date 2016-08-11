@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{2a33c4aa-285c-49ce-9cde-56c35317207b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{84ed1ab4-cdd1-45db-8fae-e4448f445358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Container">
+      <UniqueIdentifier>{db35fbfe-07f0-44e9-8cbd-a05321d6c7ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\Container\Selector.cpp">
+      <Filter>Framework\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectorTest_Int.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectorTest_IntPtr.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Framework\Container\Selector.h">
+      <Filter>Framework\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectorTest_Int.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectorTest_IntPtr.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
